@@ -54,5 +54,3 @@ To make forms accessible:
 4. Provide helpful placeholder text or default values.
 
 --- 
-
-These questions and answers target fundamental and practical HTML knowledge essential for interviews.
