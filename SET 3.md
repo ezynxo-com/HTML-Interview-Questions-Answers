@@ -54,9 +54,6 @@ To make forms accessible:
 4. Provide helpful placeholder text or default values.
 
 --- 
-Here are 5 additional HTML interview questions and answers:
-
----
 
 ### **6. What is the difference between `<head>` and `<body>` tags in HTML?**  
 **Answer:**  
