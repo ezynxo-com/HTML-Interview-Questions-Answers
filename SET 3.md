@@ -54,3 +54,100 @@ To make forms accessible:
 4. Provide helpful placeholder text or default values.
 
 --- 
+Here are 5 additional HTML interview questions and answers:
+
+---
+
+### **6. What is the difference between `<head>` and `<body>` tags in HTML?**  
+**Answer:**  
+- **`<head>`**:  
+  - Contains metadata about the HTML document.  
+  - Includes elements like `<title>`, `<meta>`, `<link>`, `<style>`, and `<script>`.  
+  - Example:  
+    ```html
+    <head>
+      <title>Page Title</title>
+      <meta charset="UTF-8">
+    </head>
+    ```  
+- **`<body>`**:  
+  - Contains the visible content of the webpage.  
+  - Includes elements like headings, paragraphs, images, and forms.  
+  - Example:  
+    ```html
+    <body>
+      <h1>Welcome to My Website</h1>
+    </body>
+    ```  
+
+---
+
+### **7. What is the purpose of the `<canvas>` element in HTML?**  
+**Answer:**  
+The `<canvas>` element is used to draw graphics on a webpage using JavaScript. It is commonly used for creating charts, animations, and games.  
+Example:  
+```html
+<canvas id="myCanvas" width="400" height="300"></canvas>
+<script>
+  const canvas = document.getElementById("myCanvas");
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "blue";
+  ctx.fillRect(50, 50, 100, 100);
+</script>
+```
+
+---
+
+### **8. What are void elements in HTML? Provide examples.**  
+**Answer:**  
+Void elements are HTML elements that do not have closing tags. They are self-closing by nature.  
+Examples:  
+- `<img>`: Used for images.  
+- `<br>`: Inserts a line break.  
+- `<hr>`: Inserts a horizontal rule.  
+- `<input>`: Used for form inputs.  
+- `<meta>`: Provides metadata.  
+
+---
+
+### **9. How do you create a table in HTML?**  
+**Answer:**  
+To create a table in HTML, use the `<table>` tag along with `<tr>` (table row), `<td>` (table cell), and `<th>` (table header).  
+Example:  
+```html
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>30</td>
+  </tr>
+</table>
+```
+
+---
+
+### **10. What is the difference between `<script>` and `<noscript>` tags in HTML?**  
+**Answer:**  
+- **`<script>`**:  
+  - Used to include JavaScript code in the HTML document.  
+  - Example:  
+    ```html
+    <script>
+      console.log("Hello, World!");
+    </script>
+    ```  
+- **`<noscript>`**:  
+  - Provides alternative content to be displayed if JavaScript is disabled or not supported by the browser.  
+  - Example:  
+    ```html
+    <noscript>Your browser does not support JavaScript.</noscript>
+    ```
+
+--- 
